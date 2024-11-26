@@ -91,3 +91,13 @@ h1 > span {
   display: none;
 }
 
+@media (min-width: 768px) {
+  .second{width: 80%};
+}
+
+@media (min-width: 1024px) {
+  .second{
+    width: 70%;
+    padding: 2rem;
+  };
+}
